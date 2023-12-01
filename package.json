@@ -2,6 +2,7 @@
   "name": "test-flow",
   "version": "0.0.7",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepack": "tsx scripts/version.ts",
@@ -26,7 +27,5 @@
   "description": "",
   "release": {
     "branches": ["release"]
-  },
-  "npmPublish": false
-
+  }
 }
