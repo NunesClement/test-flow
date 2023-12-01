@@ -23,11 +23,13 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: npm ci
-      - name: Update versions in all packages
-        run: npm run version
         # Here commit and push the updated files
       - name : Semantic release
         run: npx semantic-release
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
       # - name: Update packages
       #   run: npm i
       # - name: Commit and push changes
@@ -37,5 +39,3 @@ jobs:
       #       git add .
       #       git commit -m "chore(app): bump versions"
       #       git push origin release
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
