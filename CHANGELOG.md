@@ -1,3 +1,10 @@
+## [1.1.7-nightly.1](https://github.com/NunesClement/test-flow/compare/v1.1.6...v1.1.7-nightly.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* change ([d50a689](https://github.com/NunesClement/test-flow/commit/d50a68981ab653f65e649c8ab2095c0bd921d4ce))
+
 ## [1.1.6](https://github.com/NunesClement/test-flow/compare/v1.1.5...v1.1.6) (2023-12-01)
 
 
