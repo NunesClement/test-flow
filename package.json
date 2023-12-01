@@ -22,7 +22,11 @@
     "packages/ui",
     "packages/doc"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "22.0.8",
+    "@semantic-release/git": " 10.0.1",
+    "@semantic-release/changelog": "6.0.3"
+  },
   "keywords": [],
   "description": "",
   "release": {
