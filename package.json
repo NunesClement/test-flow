@@ -15,12 +15,13 @@
     "ui": "ui"
   },
   "workspaces": [
-    "ui/*",
-    "docs/*",
     "ui",
     "docs"
   ],
   "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "",
+  "release": {
+    "branches": ["release"]
+  }
 }
