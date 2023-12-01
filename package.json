@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "semantic-release",
     "prepack": "tsx scripts/version.ts",
     "version": "tsx scripts/version.ts"
   },
@@ -29,8 +28,5 @@
     "@semantic-release/changelog": "6.0.3"
   },
   "keywords": [],
-  "description": "",
-  "release": {
-    "branches": ["release"]
-  }
+  "description": ""
 }
