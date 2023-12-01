@@ -30,8 +30,6 @@ for (const name of packages) {
 
   const content = fs.readFileSync(packageJSON).toString();
 
-  console.log({"cont": currentVersionJSON})
-
   const updatedContent = content.replace(/"version": "\d+\.\d+\.\d+"/, `"version": "${currentVersionJSON}"`);
   
   console.log({packageJSON, updatedContent})
