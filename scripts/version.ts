@@ -29,9 +29,12 @@ for (const name of packages) {
   }
 
   const content = fs.readFileSync(packageJSON).toString();
-
-  const updatedContent = content.replace(/"version": "\d+\.\d+\.\d+"/, `"version": "${currentVersionJSON}"`);
   
+  const updatedContent = content.replace(
+    /\"version\": "([^"]|\\")*"/g,
+    `"version": "${currentVersionJSON}"`,
+  );
+
   console.log({packageJSON, updatedContent})
   fs.writeFileSync(packageJSON, updatedContent);
   console.log(`  📍 Pinned ${name} * dependencies`);

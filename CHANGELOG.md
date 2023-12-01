@@ -1,3 +1,29 @@
+# [2.0.0-nightly.2](https://github.com/NunesClement/test-flow/compare/v2.0.0-nightly.1...v2.0.0-nightly.2) (2023-12-01)
+
+
+### Bug Fixes
+
+* version ([362e538](https://github.com/NunesClement/test-flow/commit/362e5387e924a2b131f0ee05a93734e2e5856b8f))
+
+# [2.0.0-nightly.1](https://github.com/NunesClement/test-flow/compare/v1.1.8-nightly.1...v2.0.0-nightly.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* br ([#9](https://github.com/NunesClement/test-flow/issues/9)) ([43eb423](https://github.com/NunesClement/test-flow/commit/43eb423438dae44ba3d60114c28a0a6118aff717))
+
+
+### BREAKING CHANGES
+
+* -new api version
+
+## [1.1.8-nightly.1](https://github.com/NunesClement/test-flow/compare/v1.1.7...v1.1.8-nightly.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* test ([88b4426](https://github.com/NunesClement/test-flow/commit/88b442657d3148646fc4fe7658b77a177cd50ca9))
+
 ## [1.1.7](https://github.com/NunesClement/test-flow/compare/v1.1.6...v1.1.7) (2023-12-01)
 
 
