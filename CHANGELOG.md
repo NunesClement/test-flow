@@ -1,3 +1,11 @@
+## [1.1.6](https://github.com/NunesClement/test-flow/compare/v1.1.5...v1.1.6) (2023-12-01)
+
+
+### Bug Fixes
+
+* random changes ([32f4fff](https://github.com/NunesClement/test-flow/commit/32f4fff0951c52ee6c79ba8ba0f3d9cab158ac21))
+* random changes ([#5](https://github.com/NunesClement/test-flow/issues/5)) ([216ae99](https://github.com/NunesClement/test-flow/commit/216ae9990d0b0e9c83c1a309afee680b733dd520))
+
 ## [1.1.6-nightly.1](https://github.com/NunesClement/test-flow/compare/v1.1.5...v1.1.6-nightly.1) (2023-12-01)
 
 
