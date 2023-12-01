@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/NunesClement/test-flow/compare/v1.1.4...v1.1.5) (2023-12-01)
+
+
+### Bug Fixes
+
+* new config ([64ae57a](https://github.com/NunesClement/test-flow/commit/64ae57ae59dbfb8c5ef93cc7d2535d7e36ab4c9b))
+
 ## [1.1.5-nightly.1](https://github.com/NunesClement/test-flow/compare/v1.1.4...v1.1.5-nightly.1) (2023-12-01)
 
 
