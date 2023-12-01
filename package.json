@@ -1,22 +1,25 @@
 {
   "name": "test-flow",
-  "version": "0.0.0",
+  "version": "@factory/0.0.2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "tsx scripts/version.ts",
+    "version": "tsx scripts/version.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "^5.0.4"
+    "vite": "^5.0.4",
+    "tsx": "4.6.1"
   },
   "directories": {
     "doc": "docs",
     "ui": "ui"
   },
   "workspaces": [
-    "ui",
-    "docs"
+    "packages/ui",
+    "packages/doc"
   ],
   "devDependencies": {},
   "keywords": [],
@@ -25,4 +28,5 @@
     "branches": ["release"]
   },
   "npmPublish": false
+
 }
