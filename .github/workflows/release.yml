@@ -26,7 +26,8 @@ jobs:
       - name: Update versions in all packages
         run: npm run version
         # Here commit and push the updated files
-
+      - name: Update packages
+        run: npm i
       - name: Commit and push changes
         run: |
             git config --global user.email "nunes.clement19@gmail.com"
