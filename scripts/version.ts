@@ -32,13 +32,9 @@ for (const name of packages) {
 
   console.log({"cont": currentVersionJSON})
 
-  // matches `"@factory/*: ".*"` and replaces it with `"@factory/*: "${version}""`
-  const newContent = content.replace(
-    /\"@factory\/((\w|-)+)\": "([^"]|\\")*"/g,
-    `"@factory/$1": "${currentVersionJSON}"`,
-  );
-
+  const updatedContent = content.replace(/"version": "\d+\.\d+\.\d+"/, `"version": "${currentVersionJSON}"`);
   
-  fs.writeFileSync(packageJSON, newContent);
-  console.log(`  📍 Pinned ${name} @factory/* dependencies`);
+  console.log({packageJSON, updatedContent})
+  fs.writeFileSync(packageJSON, updatedContent);
+  console.log(`  📍 Pinned ${name} * dependencies`);
 }
