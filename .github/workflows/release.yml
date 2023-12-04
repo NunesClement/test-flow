@@ -17,7 +17,16 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     runs-on: ubuntu-latest
     steps:
+      - name: 'Generate token'
+        id: generate_token
+        uses: tibdex/github-app-token@v2.1.0
+        with:
+          app_id: ${{ secrets.BOT_APP_ID }}
+          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.generate_token.outputs.token }}
       - name: Use Node.js 20.x
         uses: actions/setup-node@v4
         with:
@@ -28,15 +37,4 @@ jobs:
       - name : Semantic release
         run: npx semantic-release
         env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-      # - name: Update packages
-      #   run: npm i
-      # - name: Commit and push changes
-      #   run: |
-      #       git config --global user.email "nunes.clement19@gmail.com"
-      #       git config --global user.name "NunesClement"
-      #       git add .
-      #       git commit -m "chore(app): bump versions"
-      #       git push origin release
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}

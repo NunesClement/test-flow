@@ -1,3 +1,10 @@
+## [2.0.1-nightly.2](https://github.com/NunesClement/test-flow/compare/v2.0.1-nightly.1...v2.0.1-nightly.2) (2023-12-04)
+
+
+### Bug Fixes
+
+* change yml ([ba6dc90](https://github.com/NunesClement/test-flow/commit/ba6dc901bb9cf378126488a2cbffe13e3ec166d4))
+
 ## [2.0.1-nightly.1](https://github.com/NunesClement/test-flow/compare/v2.0.0...v2.0.1-nightly.1) (2023-12-01)
 
 
