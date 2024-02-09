@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "^5.0.4",
-    "tsx": "4.6.1"
+    "vite": "^5.1.1",
+    "tsx": "4.7.0"
   },
   "directories": {
     "doc": "docs",
@@ -23,7 +23,7 @@
     "packages/doc"
   ],
   "devDependencies": {
-    "semantic-release": "22.0.8",
+    "semantic-release": "23.0.2",
     "@semantic-release/git": " 10.0.1",
     "@semantic-release/changelog": "6.0.3"
   },
