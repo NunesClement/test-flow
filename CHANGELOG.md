@@ -1,9 +1,13 @@
-## [2.0.4](https://github.com/NunesClement/test-flow/compare/v2.0.4-nightly.4...v2.0.4) (2024-02-12)
+## [2.0.4](https://github.com/NunesClement/test-flow/compare/v2.0.3...v2.0.4) (2024-02-12)
 
 
 ### Bug Fixes
 
-* debug ([49896cb](https://github.com/NunesClement/test-flow/commit/49896cbd9fe8d1ba0fcc11d462bf345b24bf8d3f))
+* release yml ([#22](https://github.com/NunesClement/test-flow/issues/22)) ([d6f494d](https://github.com/NunesClement/test-flow/commit/d6f494dff21af3901fd643ffea75eff49b2ce546))
+* test u1 ([#17](https://github.com/NunesClement/test-flow/issues/17)) ([627d449](https://github.com/NunesClement/test-flow/commit/627d449a70cf57630ce29997da353ab2d8679755))
+* test-u2 ([#19](https://github.com/NunesClement/test-flow/issues/19)) ([2d216e9](https://github.com/NunesClement/test-flow/commit/2d216e95f64db4c02fe61d16132b112c3fd8e0f6))
+* test-u3 ([#20](https://github.com/NunesClement/test-flow/issues/20)) ([80387d7](https://github.com/NunesClement/test-flow/commit/80387d7575fcb18e364ccce5e055180c8400b7ea))
+* test-u4 ([#21](https://github.com/NunesClement/test-flow/issues/21)) ([6d9bd4a](https://github.com/NunesClement/test-flow/commit/6d9bd4a2adbc90cc0af812450c1865951400ed40))
 
 ## [2.0.4-nightly.2](https://github.com/NunesClement/test-flow/compare/v2.0.4-nightly.1...v2.0.4-nightly.2) (2024-02-12)
 
