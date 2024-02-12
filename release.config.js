@@ -1,12 +1,5 @@
 const branch = process.env.GITHUB_REF_NAME // URG: check without git env
 
-const pluginsPreRelease = [
-  "@semantic-release/commit-analyzer",
-  "@semantic-release/release-notes-generator",
-  "@semantic-release/npm",
-  "@semantic-release/github",
-];
-
 const pluginsRelease = [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
@@ -34,9 +27,6 @@ const config = {
  
  if (branch === 'release') {
   config.plugins = pluginsRelease;
-} else {
-  config.plugins = pluginsPreRelease;
 }
-
 
 module.exports = config;
