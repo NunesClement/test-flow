@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "2.0.2",
+  "version": "2.0.3-nightly.1",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "three": "^0.159.0"
+    "three": "^0.161.0"
   },
   "devDependencies": {},
   "keywords": [],
