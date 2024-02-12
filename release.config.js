@@ -26,8 +26,8 @@ const config = {
   branches: ['release', {name: 'nightly', prerelease: true}],
  }
  
- if (branch === 'release') {
-  config.plugins = pluginsRelease;
-}
+//  if (branch === 'release') {
+//   config.plugins = pluginsRelease;
+// }
 
 module.exports = config;
