@@ -28,6 +28,10 @@ const pluginsRelease = [
  ]
 
 
+ const config = {
+  branches: ['release', {name: 'nightly', prerelease: true}],
+ }
+ 
  if (config.branches.some((it) => it === branch || (it.name === branch && !it.prerelease))) {
   config.plugins = pluginsRelease;
 } else {
