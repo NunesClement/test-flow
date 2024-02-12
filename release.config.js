@@ -1,10 +1,13 @@
-// eslint-disable-next-line turbo/no-undeclared-env-vars
 const branch = process.env.GITHUB_REF_NAME
 
+const pluginsPreRelease = [
+  "@semantic-release/commit-analyzer",
+  "@semantic-release/release-notes-generator",
+  "@semantic-release/npm",
+  "@semantic-release/github",
+];
 
-const config = {
-    branches: ['release', {name: 'nightly', prerelease: true}],
-    plugins: [
+const pluginsRelease = [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
@@ -21,26 +24,15 @@ const config = {
             "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
           }
         ],
-        
-        "@semantic-release/github"
-      ]
-};
+        "@semantic-release/github",
+ ]
 
-if (config.branches.some((it) => it === branch || (it.name === branch && !it.prerelease))) {
-  config.plugins.push('@semantic-release/changelog', [
-    '@semantic-release/git',
-    {
-      assets: [
-        'CHANGELOG.md',
-        'package.json',
-        'package-lock.json',
-        'packages/**/package.json',
-        'apps/**/package.json',
-      ],
-      // eslint-disable-next-line no-template-curly-in-string
-      message: 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-    },
-  ])
+
+ if (config.branches.some((it) => it === branch || (it.name === branch && !it.prerelease))) {
+  config.plugins = pluginsRelease;
+} else {
+  config.plugins = pluginsPreRelease;
 }
+
 
 module.exports = config;
