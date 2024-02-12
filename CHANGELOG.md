@@ -1,3 +1,12 @@
+## [2.0.5](https://github.com/NunesClement/test-flow/compare/v2.0.4...v2.0.5) (2024-02-12)
+
+
+### Bug Fixes
+
+* debug ([49896cb](https://github.com/NunesClement/test-flow/commit/49896cbd9fe8d1ba0fcc11d462bf345b24bf8d3f))
+* resolve conflicts ([e822de1](https://github.com/NunesClement/test-flow/commit/e822de17772c09e9feb439b510cd96a938b2561d))
+* test ([b8c02e4](https://github.com/NunesClement/test-flow/commit/b8c02e48585391e15dc396503c0ce064580f4726))
+
 ## [2.0.4](https://github.com/NunesClement/test-flow/compare/v2.0.3...v2.0.4) (2024-02-12)
 
 
