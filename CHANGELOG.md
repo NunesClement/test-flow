@@ -1,4 +1,4 @@
-## [2.0.4-nightly.5](https://github.com/NunesClement/test-flow/compare/v2.0.4-nightly.4...v2.0.4-nightly.5) (2024-02-12)
+## [2.0.4](https://github.com/NunesClement/test-flow/compare/v2.0.4-nightly.4...v2.0.4) (2024-02-12)
 
 
 ### Bug Fixes
