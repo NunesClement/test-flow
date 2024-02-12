@@ -1,5 +1,5 @@
 // eslint-disable-next-line turbo/no-undeclared-env-vars
-const branch = process.env.GITHUB_BASE_REF
+const branch = process.env.GITHUB_REF_NAME
 
 
 const config = {
