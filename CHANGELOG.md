@@ -1,3 +1,9 @@
+## [2.0.3-nightly.1](https://github.com/NunesClement/test-flow/compare/v2.0.2...v2.0.3-nightly.1) (2024-02-12)
+
+
+### Bug Fixes
+
+* test ([ef0ac30](https://github.com/NunesClement/test-flow/commit/ef0ac30e37b8a4ff8b88cc501aae9a72760e894a))
 
 ## [2.0.2](https://github.com/NunesClement/test-flow/compare/v2.0.1...v2.0.2) (2024-02-09)
 
