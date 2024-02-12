@@ -32,6 +32,8 @@ const pluginsRelease = [
   branches: ['release', {name: 'nightly', prerelease: true}],
  }
 
+ console.log({branch})
+ 
  config.plugins = pluginsRelease;
  
 //  if (config.branches.some((it) => it === branch || (it.name === branch && !it.prerelease))) {
