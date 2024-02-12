@@ -34,11 +34,11 @@ const pluginsRelease = [
 
  config.plugins = pluginsRelease;
  
- if (config.branches.some((it) => it === branch || (it.name === branch && !it.prerelease))) {
-  config.plugins = pluginsRelease;
-} else {
-  config.plugins = pluginsPreRelease;
-}
+//  if (config.branches.some((it) => it === branch || (it.name === branch && !it.prerelease))) {
+//   config.plugins = pluginsRelease;
+// } else {
+//   config.plugins = pluginsPreRelease;
+// }
 
 
 module.exports = config;
