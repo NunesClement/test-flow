@@ -1,6 +1,6 @@
 {
   "name": "test-flow",
-  "version": "2.0.4-nightly.5",
+  "version": "2.0.4",
   "main": "index.js",
   "private": true,
   "scripts": {
