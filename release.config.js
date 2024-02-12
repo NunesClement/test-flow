@@ -1,5 +1,6 @@
 const branch = process.env.GITHUB_REF_NAME // URG: check without git env
 
+console.log({ branch })
 const pluginsRelease = [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
